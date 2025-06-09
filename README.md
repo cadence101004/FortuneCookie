@@ -1,4 +1,4 @@
-# FortuneCookie
+# Fortune Cookie
 
 A playful Chinese fortune cookie page built with HTML, CSS, and JavaScript.
 

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Fortune Cookie</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-page" id="mainPage">
+        <img src="images/fortune-cookie.png" alt="Fortune Cookie" class="cookie" id="cookie">
+        <p class="instruction">Click the cookie to get your fortune!</p>
+    </div>
+
+<div class="second-page" id="secondPage" style="display: none;">
+    <img src="images/fortune-cookie-open.png" alt="Opened Fortune Cookie" class="cookie-open">
+    <p class="fortune-text" id="fortuneText">Your fortune will appear here!</p>
+    <button class="new-fortune-btn" id="newFortuneBtn">Get another fortune.</button>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
